@@ -6,6 +6,7 @@ const FAILURE_KEY = 'FAILURE';
 
 /**
  * Handles the request to the URL and returns the result in the correct format.
+ * Future implementation could include error handling if the request fails for some reason or if the response is not in the correct format.
  * @param {string} url - The URL to request.
  * @returns {Promise<Object>} - The result in the correct format.
  * @example
